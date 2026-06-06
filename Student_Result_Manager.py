@@ -30,7 +30,7 @@ while True:
         if name in student:
             marks = student[name]
             
-            if marks>="40":
+            if marks>=40:
                 print("Pass")
             else:
                 print("Sorry Fail")
